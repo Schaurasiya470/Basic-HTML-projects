@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpport" content="" width="device-width" initial-scale="1.0">
+        <title>Form</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                border-color: rgb(22, 22, 24);
+            }
+        </style>
+    </head>
+
+    <body>
+        <table align="center" width="70%" border="1px solid black">
+            <thead>
+                <th width="100%" bgcolor="#a87932"><h2>Student Registration Form</h2></th>
+            </thead>
+        </table>
+        <form action="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" align="left">
+            <table align="center" width="70%" border="1px solid red">
+
+                <tr ><td width="25%">
+            <label for="name">Name:</label></td>
+            <td width="75%">
+            <input type="text" name="name" id="name" value="" required><br><br>
+             </td>   </tr>
+
+             <tr ><td width="25%">
+            <label for="email">Email:</label></td><td>
+            <input type="email" name="email" id="email" value="" required><br><br></td></tr>
+
+            <tr ><td width="25%">
+            <label for="mobile">Mobile No:</label></td><td>
+            <input type="tel" name="mobile" id="mobile" value="" required><br><br></td></tr>
+
+            <tr ><td width="25%">
+            <label for="roll">Roll No:</label></td><td>
+            <input type="tel" name="roll" id="roll" value="" required><br><br></td></tr>
+
+            <tr ><td width="25%">
+            <label for="course">Course</label></td><td>
+            <select id="course" name="course" value="select" required>
+                <option selected>Select</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>B.PHARMA</option>
+                <option>MCA</option>
+                
+            </select><br><br></td></tr>
+
+
+            <tr ><td width="25%">
+            <label for="branch">Branch(if B.Tech)</label></td><td>
+                <select id="branch" name="branch" value="select">
+                <option selected>Select</option>
+                <option>Civil</option>
+                <option >CSE & IT</option>
+                <option>Electrical</option>
+                <option>Mechanical</option>
+                <option>Electronics</option>
+            </select><br><br></td></tr>
+
+
+            <tr ><td width="25%">
+            <label for="dob">DOB</label></td><td>
+            <input type="date" name="dob" id="dob" required><br><br></td></tr>
+
+            <tr ><td width="25%">
+            <label for="gender">Gender:</label></td><td>
+            <input type="radio" name="name" id="male">
+            <label for="male" >Male</label>
+            <input type="radio" name="name" id="female">
+            <label for="female">Female</label><br><br></td></tr>
+
+                
+            <tr ><td width="25%">
+            <label for="address">Address:</label></td><td>
+            <textarea id="address"></textarea><br><br></td></tr>
+
+            <tr ><td width="25%" colspan="2" align="center">
+            <input type="submit" value="Submit">
+            </td></tr>
+
+            </table>
+        </form>
+        
+
+    </body>
+</html>
